@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to top, #d946ef, #7e22ce, #4338ca);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.main-container {
+    padding: 1rem 2rem 1rem 2rem;
+    background-image: linear-gradient(to bottom, #f43f5e, #fde047);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border: 2px solid #fff;
+}
+
+.head {
+    font-size: 1.5rem;
+}
+
+.body-components {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.upper-tab {
+    line-height: 2rem;
+}
+
+.btn-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-tab button {
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    background-image: linear-gradient(to top, #16a34a, #075985);
+    font-size: 1.2rem;
+    transition: 0.5s;
+}
+
+.btn-tab button:hover {
+    scale: 1.05;
+    background-image: linear-gradient(to top, #f472b6, #3730a3);
+}

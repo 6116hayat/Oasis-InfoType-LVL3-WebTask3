@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+
+    <!-- Css Link -->
+    <link rel="stylesheet" href="./tempConv.css">
+
+</head>
+
+<body>
+
+    <!-- main container -->
+    <div class="main-container">
+        <!-- Head -->
+        <div class="head">
+            <h2>Temperate Convertor</h2>
+        </div>
+
+        <!-- Body -->
+        <form class="body-components">
+            <span class="upper-tab">
+                <label for="fromType">Current Temperature units:</label>
+                <select class="fromType" id="fromType">
+                    <option value="celsius">Celsius</option>
+                    <option value="kelvin">Kelvin</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                </select>
+
+                <p><label for="temperature">Enter Your Temperature: </label>
+                    <input id="temp" type="text" placeholder="Eg: 12">
+                </p>
+            </span>
+            <span class="lower-tab">
+                <label for="resultType"> Convert to:</label>
+                <select class="resultType" id="resultType">
+                    <option value="celsius">Celsius</option>
+                    <option value="kelvin">Kelvin</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                </select>
+            </span>
+
+            <span class="btn-tab">
+                <button type="submit">Submit</button>
+            </span>
+
+            <p class="result"></p>
+        </form>
+
+        <!-- Foot -->
+        <div class="footer">
+            Made with ❤️ by Hayat
+        </div>
+    </div>
+
+
+    <script src="./tempConv.js"></script>
+
+</body>
+
+</html>
